@@ -1,6 +1,6 @@
 const Alumno = require("../models/Alumno");
  
-//get read
+//GET ALUMNO
 
 exports.getAlumno = async (req, res) => {
 
@@ -19,6 +19,7 @@ exports.getAlumno = async (req, res) => {
     }
 }
 
+//GET ALUMNOS
 exports.getAlumnos = async (req, res) => {
 
     try {
@@ -32,7 +33,7 @@ exports.getAlumnos = async (req, res) => {
     }
 }
 
-//create
+//CREATE ALUMNO
 exports.createAlumno = async (req, res) => {
 
     try {
@@ -50,7 +51,7 @@ exports.createAlumno = async (req, res) => {
     }
 }
 
-//delete
+//DELETE ALUMNO
 exports.deleteAlumno = async (req, res) => {
 
     try {
@@ -69,6 +70,7 @@ exports.deleteAlumno = async (req, res) => {
     }
 }
 
+//UPDATE ALUMNO
 exports.updateAlumno = async (req, res) => {
 
     try {
